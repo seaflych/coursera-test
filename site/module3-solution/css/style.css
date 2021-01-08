@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* Header */
+#header-nav {
+  background-color: #f6b319; 
+  border-radius: 0;  
+  border: 0;     
+}
+.navbar .container {
+	margin-left: 0;
+	margin-right: 0;
+}
+.navbar-brand h1 { 
+  color: #557c3e;
+  font-size: 1.5em;  
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 1px 1px 1px #222;  
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75; 
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;   
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #E7E7E7; 
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+/*Main Page */
+
+#main-title {
+	margin-bottom: 25px;
+	font-family: 'Parisienne', cursive;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+.menu-item {
+	font-family: 'Parisienne', cursive;
+	font-weight: bold;
+	color: #61122f;
+	padding-top: 0.8em;
+}
+#colorfulbox {
+	position: relative;
+	background-color:#f6b319;
+}
+.menu-item-details{
+	text-align: justify;
+	padding: 0px 15px 30px 15px;
+	color: #61122f;
+}
+#backtotop {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 14px;
+	padding: 0 10px 5px 0;
+}
+#backtotop:hover, #backtotop:focus {
+  text-decoration: none;
+}
+#backtotop:hover {
+  background: #E7E7E7; 
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {                    
+
+}
